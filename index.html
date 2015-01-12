@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+
+    <!-- marked -->
+    <script src="http://chutsu.github.io/ditto/ver/0.1/marked.min.js"></script>
+
+    <!-- ditto -->
+    <script src="http://chutsu.github.io/ditto/ver/0.1/ditto.js"></script>
+    <link href="http://chutsu.github.io/ditto/ver/0.1/ditto.css" rel="stylesheet">
+</head>
+<body>
+    <!-- essential -->
+    <div id="sidebar"></div>
+    <div id="content"></div>
+
+    <!-- optional -->
+    <div id="back_to_top">back to top</div>
+    <div id="edit">edit</div>
+    <div id="loading">Loading ...</div>
+    <div id="error"></div>
+
+    <!-- custom script -->
+    <script>
+        // essential settings
+        ditto.index = "README.md";
+        ditto.sidebar_file = "sidebar.md";
+
+        // optional settings if you want github search
+        ditto.github_username = shangjiyu;   // <-- EDIT THIS LINE! e.g. "chutsu"
+        ditto.github_repo = null;       // <-- EDIT THIS LINE! e.g. "ditto"
+
+        // where the docs are actually stored on github - so you can edit
+        // e.g. https://github.com/chutsu/ditto/edit/gh-pages/
+        ditto.base_url = "https://shangjiyu.github.io";            // <-- EDIT THIS LINE!
+
+        // run
+        ditto.run();
+    </script>
+</body>
+</html>
+
