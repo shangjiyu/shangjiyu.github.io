@@ -1,0 +1,1 @@
+[**Yeah, Keep It Stupid Simple**](https://en.wikipedia.org/wiki/KISS_principle)
